@@ -21,11 +21,13 @@ return [
             'path'     => '/',
             'httpOnly' => true,
         ],
+        ],
         'session' => [
             'name' => 'FRONTENDSESSID',
             'cookieParams' => [
                 'httpOnly' => true,
                 'path'     => '/',
+        ],
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
@@ -46,9 +48,6 @@ return [
             'rules' => [
             ],
         ],
-
-    ],
-            ],
         ],
     'modules' => [
         'user' => [
